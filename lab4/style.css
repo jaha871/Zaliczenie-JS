@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.noteForm {
+  max-width: 40rem;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.notesContainer {
+  max-width: 41rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.delete-btn,
+.pin-btn {
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  color: #595959;
+  transition: color 0.2s ease-in-out;
+}
+
+.delete-btn:hover,
+.pin-btn:hover {
+  color: #000000;
+}
+
+.searchResults {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#addNoteForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.note {
+  width: 12rem;
+  height: 10rem;
+  background-color: #fff;
+  padding: 10px;
+  margin: 1rem 0;
+  overflow: hidden;
+  box-shadow: 5px 5px 2px 1px #636363;
+}
+
+.noteProperty {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.noteProperty label {
+  font-size: 12px;
+  color: #777;
+  border: none;
+  background-color: transparent;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.searchBar {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 1.5rem;
+}

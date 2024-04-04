@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 25rem;
+}
+
+h1 {
+  color: #333;
+  margin: 1.2rem;
+}
+
+.input-field {
+  width: 20rem;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+}
+
+.input-field:hover {
+  background-color: #ededed;
+}
+
+#add-field,
+#remove-field {
+  padding: 10px 20px;
+  background-color: rgb(48, 53, 58);
+  margin: 0.9rem;
+  align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#results {
+  text-align: left;
+  margin-top: 20px;
+}

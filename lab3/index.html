@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="tracks">
+          <label
+            ><input
+              type="checkbox"
+              class="trackCheckbox"
+              data-track="1"
+              checked
+            />
+            Track 1
+          </label>
+          <label
+            ><input type="checkbox" class="trackCheckbox" data-track="2" />
+            Track 2</label
+          >
+        </div>
+        <div class="metronom-controls tracks">
+          <label for="bpm"
+            >Metronom <span>BPM</span>
+            <input
+              class="metronome"
+              type="number"
+              id="bpm"
+              value="120"
+              min="1"
+              max="300"
+            /><button class="metronome" id="metronomeOn">On</button>
+            <button class="metronome" id="metronomeOff">Off</button></label
+          >
+        </div>
+        <div class="controls">
+          <button id="record">Record</button>
+          <button id="stop">Stop</button>
+          <button id="play">Play</button>
+          <button id="addTrack">Add Track</button>
+        </div>
+      </div>
+
+      <div class="sound-container">
+        <div class="sound">
+          <audio src="./sounds/clap.wav" controls id="s1"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/hihat.wav" controls id="s2"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/kick.wav" controls id="s3"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/openhat.wav" controls id="s4"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/boom.wav" controls id="s5"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/ride.wav" controls id="s6"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/snare.wav" controls id="s7"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/tom.wav" controls id="s8"></audio>
+        </div>
+
+        <div class="sound">
+          <audio src="./sounds/tink.wav" controls id="s9"></audio>
+        </div>
+      </div>
+    </section>
+
+    <script src="drumkit.js"></script>
+  </body>
+</html>

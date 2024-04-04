@@ -1,0 +1,30 @@
+/* CSS (styles.css) */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.hole {
+  width: 3rem;
+  height: 3rem;
+  background-color: #1b1b1b;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.ball {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffffff;
+  box-shadow: inset 0 0 20px 3px rgb(17, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.1s ease-out;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
